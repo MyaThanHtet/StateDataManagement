@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.StateDataManagement" parent="Theme.Design.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/login_button</item>
+        <item name="colorPrimaryVariant">#FFFFFF</item>
+        <item name="colorOnPrimary">#2196F3</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#03A9F4</item>
+        <item name="colorSecondaryVariant">#03A9F4</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:toolbarStyle">@color/black</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="buttonTheme" parent="Theme.AppCompat">
+
+    </style>
+</resources>
